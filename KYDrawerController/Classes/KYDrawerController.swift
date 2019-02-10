@@ -175,10 +175,10 @@ open class KYDrawerController: UIViewController, UIGestureRecognizerDelegate {
 
             _mainRightConstraint = NSLayoutConstraint(
                 item: mainViewController.view,
-                attribute: NSLayoutAttribute.right,
-                relatedBy: NSLayoutRelation.equal,
+                attribute: NSLayoutConstraint.Attribute.right,
+                relatedBy: NSLayoutConstraint.Relation.equal,
                 toItem: view,
-                attribute: NSLayoutAttribute.right,
+                attribute: NSLayoutConstraint.Attribute.right,
                 multiplier: 1,
                 constant: 0
             )
@@ -186,10 +186,10 @@ open class KYDrawerController: UIViewController, UIGestureRecognizerDelegate {
 
             _mainLeftConstraint = NSLayoutConstraint(
                 item: mainViewController.view,
-                attribute: NSLayoutAttribute.left,
-                relatedBy: NSLayoutRelation.equal,
+                attribute: NSLayoutConstraint.Attribute.left,
+                relatedBy: NSLayoutConstraint.Relation.equal,
                 toItem: view,
-                attribute: NSLayoutAttribute.left,
+                attribute: NSLayoutConstraint.Attribute.left,
                 multiplier: 1,
                 constant: 0
             )
